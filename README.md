@@ -1,7 +1,6 @@
 # flatten-arr
 
 [![Build Status](https://travis-ci.org/gadelkareem/flatten-arr.svg)](https://travis-ci.org/gadelkareem/flatten-arr)
-[![GoDoc](https://godoc.org/github.com/gadelkareem/flatten-arr?status.svg)](https://godoc.org/github.com/gadelkareem/flatten-arr)
 
 ```bash
 > go test -v -bench=. -benchmem
