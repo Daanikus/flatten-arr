@@ -12,7 +12,7 @@ var l = []struct {
 	{[]interface{}{[]interface{}{1, 2, []int{3}, 4}}, []int{1, 2, 3, 4}},
 	{[]interface{}{1, 2, 3, 4, 5}, []int{1, 2, 3, 4, 5}},
 	{nil, nil},
-	{[]interface{}{"x", []int{3}, -1, 0}, []int{3, -1, 0}},
+	{[]interface{}{"x", nil, []int{3}, -1, 0}, []int{3, -1, 0}},
 	{[]interface{}{[]interface{}{1, []interface{}{1, 9, 4, 4}, []int{3}, []interface{}{1, 2, "x", 4}}}, []int{1, 1, 9, 4, 4, 3, 1, 2, 4}},
 }
 
